@@ -23,3 +23,11 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+
+
+
+// Existing function provided for you
+function mimicServerCall(url = "http://mimicServer.example.com", config = {}) {
+  // ... (code for simulating server call)
+}
+
